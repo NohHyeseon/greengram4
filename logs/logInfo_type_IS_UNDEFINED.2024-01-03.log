@@ -1,0 +1,285 @@
+[2024-01-03 13:12:16 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 4924 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-03 13:12:16 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-03 13:12:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-03 13:12:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-03 13:12:17 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-03 13:12:17 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:12:17 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-03 13:12:17 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-03 13:12:17 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-03 13:12:17 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 914 ms[0;39m
+[2024-01-03 13:12:17 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-03 13:12:17 [33mWARN [0;39m restartedMain] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [36mException encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedController' defined in file [D:\greengram4\build\classes\java\main\com\greengram\greengram4\feed\FeedController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.greengram.greengram4.feed.FeedService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}[0;39m
+[2024-01-03 13:12:17 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStopping service [Tomcat][0;39m
+[2024-01-03 13:12:17 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [36m
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.[0;39m
+[2024-01-03 13:12:17 [31mERROR[0;39m restartedMain] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [36m
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.greengram.greengram4.feed.FeedController required a bean of type 'com.greengram.greengram4.feed.FeedService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.greengram.greengram4.feed.FeedService' in your configuration.
+[0;39m
+[2024-01-03 13:13:15 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 10032 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-03 13:13:15 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-03 13:13:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-03 13:13:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-03 13:13:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-03 13:13:16 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:13:16 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-03 13:13:16 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-03 13:13:16 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-03 13:13:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 1181 ms[0;39m
+[2024-01-03 13:13:16 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-03 13:13:17 [33mWARN [0;39m restartedMain] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [36mException encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedController' defined in file [D:\greengram4\build\classes\java\main\com\greengram\greengram4\feed\FeedController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.greengram.greengram4.feed.FeedService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}[0;39m
+[2024-01-03 13:13:17 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStopping service [Tomcat][0;39m
+[2024-01-03 13:13:17 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [36m
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.[0;39m
+[2024-01-03 13:13:17 [31mERROR[0;39m restartedMain] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [36m
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.greengram.greengram4.feed.FeedController required a bean of type 'com.greengram.greengram4.feed.FeedService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.greengram.greengram4.feed.FeedService' in your configuration.
+[0;39m
+[2024-01-03 13:13:34 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 4516 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-03 13:13:34 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-03 13:13:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-03 13:13:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-03 13:13:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-03 13:13:36 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:13:36 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-03 13:13:36 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-03 13:13:36 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-03 13:13:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 1323 ms[0;39m
+[2024-01-03 13:13:36 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-03 13:13:36 [33mWARN [0;39m restartedMain] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [36mException encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedController' defined in file [D:\greengram4\build\classes\java\main\com\greengram\greengram4\feed\FeedController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.greengram.greengram4.feed.FeedService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}[0;39m
+[2024-01-03 13:13:36 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStopping service [Tomcat][0;39m
+[2024-01-03 13:13:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [36m
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.[0;39m
+[2024-01-03 13:13:36 [31mERROR[0;39m restartedMain] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [36m
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.greengram.greengram4.feed.FeedController required a bean of type 'com.greengram.greengram4.feed.FeedService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.greengram.greengram4.feed.FeedService' in your configuration.
+[0;39m
+[2024-01-03 13:14:02 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 12076 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-03 13:14:02 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-03 13:14:02 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-03 13:14:02 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-03 13:14:03 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-03 13:14:03 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:14:03 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-03 13:14:03 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-03 13:14:03 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-03 13:14:03 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 952 ms[0;39m
+[2024-01-03 13:14:03 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-03 13:14:03 [33mWARN [0;39m restartedMain] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [36mException encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedController' defined in file [D:\greengram4\build\classes\java\main\com\greengram\greengram4\feed\FeedController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.greengram.greengram4.feed.FeedService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}[0;39m
+[2024-01-03 13:14:03 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStopping service [Tomcat][0;39m
+[2024-01-03 13:14:03 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [36m
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.[0;39m
+[2024-01-03 13:14:03 [31mERROR[0;39m restartedMain] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [36m
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.greengram.greengram4.feed.FeedController required a bean of type 'com.greengram.greengram4.feed.FeedService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.greengram.greengram4.feed.FeedService' in your configuration.
+[0;39m
+[2024-01-03 13:14:30 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 11700 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-03 13:14:30 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-03 13:14:30 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-03 13:14:30 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-03 13:14:31 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-03 13:14:31 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:14:31 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-03 13:14:31 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-03 13:14:31 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-03 13:14:31 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 891 ms[0;39m
+[2024-01-03 13:14:31 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-03 13:14:31 [33mWARN [0;39m restartedMain] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [36mException encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedController' defined in file [D:\greengram4\build\classes\java\main\com\greengram\greengram4\feed\FeedController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.greengram.greengram4.feed.FeedService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}[0;39m
+[2024-01-03 13:14:31 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStopping service [Tomcat][0;39m
+[2024-01-03 13:14:31 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [36m
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.[0;39m
+[2024-01-03 13:14:31 [31mERROR[0;39m restartedMain] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [36m
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.greengram.greengram4.feed.FeedController required a bean of type 'com.greengram.greengram4.feed.FeedService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.greengram.greengram4.feed.FeedService' in your configuration.
+[0;39m
+[2024-01-03 13:15:34 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 4164 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-03 13:15:34 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-03 13:15:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-03 13:15:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-03 13:15:35 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-03 13:15:35 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:15:35 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-03 13:15:35 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-03 13:15:35 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-03 13:15:35 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 921 ms[0;39m
+[2024-01-03 13:15:35 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-03 13:15:35 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2024-01-03 13:15:35 [33mWARN [0;39m restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [36m
+
+Using generated security password: c26255dd-7454-4cf7-b720-78451385ad53
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+[0;39m
+[2024-01-03 13:15:35 [32mINFO [0;39m restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] [36mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3c9e65d0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48365059, org.springframework.security.web.context.SecurityContextHolderFilter@28c891cd, org.springframework.security.web.header.HeaderWriterFilter@2300dd86, org.springframework.web.filter.CorsFilter@5d33d5d3, org.springframework.security.web.csrf.CsrfFilter@33eb1b53, org.springframework.security.web.authentication.logout.LogoutFilter@38570c35, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@507846a8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@55f169a1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5d090c90, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2eab4ef4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ceab52b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8de2a78, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12764204, org.springframework.security.web.access.ExceptionTranslationFilter@44aafb6a, org.springframework.security.web.access.intercept.AuthorizationFilter@5b7c5577][0;39m
+[2024-01-03 13:15:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-01-03 13:15:36 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:15:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-01-03 13:15:36 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarted Greengram4Application in 1.976 seconds (process running for 2.365)[0;39m
+[2024-01-03 13:15:36 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-01-03 13:15:36 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-01-03 13:15:36 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2024-01-03 13:16:01 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 3688 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-03 13:16:01 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-03 13:16:01 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-03 13:16:01 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-03 13:16:02 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-03 13:16:02 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:16:02 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-03 13:16:02 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-03 13:16:02 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-03 13:16:02 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 899 ms[0;39m
+[2024-01-03 13:16:02 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-03 13:16:02 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2024-01-03 13:16:02 [33mWARN [0;39m restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [36m
+
+Using generated security password: d540f63d-e3d5-484e-8813-710226196881
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+[0;39m
+[2024-01-03 13:16:02 [32mINFO [0;39m restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] [36mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@66987075, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ff55af9, org.springframework.security.web.context.SecurityContextHolderFilter@43b8bcbf, org.springframework.security.web.header.HeaderWriterFilter@14680855, org.springframework.web.filter.CorsFilter@6e969135, org.springframework.security.web.csrf.CsrfFilter@7be6526e, org.springframework.security.web.authentication.logout.LogoutFilter@4f78eb54, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4a5f46d6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@70be008d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@31229433, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1951a2d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31bc1a09, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5fdc8786, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@141c51ba, org.springframework.security.web.access.ExceptionTranslationFilter@5b7c5577, org.springframework.security.web.access.intercept.AuthorizationFilter@6b668fb3][0;39m
+[2024-01-03 13:16:02 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-01-03 13:16:02 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:16:02 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-01-03 13:16:02 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarted Greengram4Application in 2.028 seconds (process running for 2.482)[0;39m
+[2024-01-03 13:16:03 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-01-03 13:16:03 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-01-03 13:16:03 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-01-03 13:16:25 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 1212 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-03 13:16:25 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-03 13:16:25 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-03 13:16:25 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-03 13:16:25 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-03 13:16:25 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:16:25 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-03 13:16:25 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-03 13:16:26 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-03 13:16:26 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 875 ms[0;39m
+[2024-01-03 13:16:26 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-03 13:16:26 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2024-01-03 13:16:26 [33mWARN [0;39m restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [36m
+
+Using generated security password: 1437d097-b1b4-4c87-83fd-981feaed9426
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+[0;39m
+[2024-01-03 13:16:26 [32mINFO [0;39m restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] [36mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5b40bdb3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a8eb783, org.springframework.security.web.context.SecurityContextHolderFilter@f8019c8, org.springframework.security.web.header.HeaderWriterFilter@4f2c9cd3, org.springframework.web.filter.CorsFilter@89cace2, org.springframework.security.web.csrf.CsrfFilter@242ca8aa, org.springframework.security.web.authentication.logout.LogoutFilter@2761c85a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@393e1437, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@761c0ba7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5935387e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3cedbe56, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f7f4fa2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@718da4db, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@746abce, org.springframework.security.web.access.ExceptionTranslationFilter@78ccf15e, org.springframework.security.web.access.intercept.AuthorizationFilter@27439c2d][0;39m
+[2024-01-03 13:16:26 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-01-03 13:16:26 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:16:26 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-01-03 13:16:26 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarted Greengram4Application in 1.938 seconds (process running for 2.341)[0;39m
+[2024-01-03 13:16:32 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-01-03 13:16:32 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-01-03 13:16:32 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2024-01-03 13:19:38 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 7924 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-03 13:19:38 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-03 13:19:38 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-03 13:19:38 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-03 13:19:39 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-03 13:19:39 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:19:39 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-03 13:19:39 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-03 13:19:39 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-03 13:19:39 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 906 ms[0;39m
+[2024-01-03 13:19:39 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-03 13:19:40 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2024-01-03 13:19:40 [33mWARN [0;39m restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [36m
+
+Using generated security password: c34da914-0a8e-439b-b393-f80d743b9923
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+[0;39m
+[2024-01-03 13:19:40 [32mINFO [0;39m restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] [36mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@40dd9dc2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b55fb5e, org.springframework.security.web.context.SecurityContextHolderFilter@59c5e084, org.springframework.security.web.header.HeaderWriterFilter@699f8205, org.springframework.web.filter.CorsFilter@4d3692d4, org.springframework.security.web.csrf.CsrfFilter@6b2e14f6, org.springframework.security.web.authentication.logout.LogoutFilter@33a14b9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5b40bdb3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2155018d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6b0dec1d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@8ba6d3a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b142014, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61b3a902, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47925f33, org.springframework.security.web.access.ExceptionTranslationFilter@761c0ba7, org.springframework.security.web.access.intercept.AuthorizationFilter@4e93fd62][0;39m
+[2024-01-03 13:19:40 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-01-03 13:19:40 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:19:40 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-01-03 13:19:40 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarted Greengram4Application in 1.961 seconds (process running for 2.355)[0;39m
+[2024-01-03 13:19:44 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-01-03 13:19:44 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-01-03 13:19:44 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2024-01-03 13:19:50 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 11368 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-03 13:19:50 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-03 13:19:50 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-03 13:19:50 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-03 13:19:51 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-03 13:19:51 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:19:51 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-03 13:19:51 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-03 13:19:51 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-03 13:19:51 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 890 ms[0;39m
+[2024-01-03 13:19:51 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-03 13:19:51 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2024-01-03 13:19:51 [33mWARN [0;39m restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [36m
+
+Using generated security password: 147c39c1-3eea-405a-aad9-6f97d312bf23
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+[0;39m
+[2024-01-03 13:19:51 [32mINFO [0;39m restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] [36mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3592a89f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a684b9, org.springframework.security.web.context.SecurityContextHolderFilter@2b66a112, org.springframework.security.web.header.HeaderWriterFilter@5d090c90, org.springframework.web.filter.CorsFilter@3609aca8, org.springframework.security.web.csrf.CsrfFilter@7c571072, org.springframework.security.web.authentication.logout.LogoutFilter@4a5f46d6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6e969135, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@27b451ca, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2f338090, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@458e51ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e5856d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@352f3da3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fc503b9, org.springframework.security.web.access.ExceptionTranslationFilter@48365059, org.springframework.security.web.access.intercept.AuthorizationFilter@4ff55af9][0;39m
+[2024-01-03 13:19:51 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-01-03 13:19:51 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-03 13:19:51 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-01-03 13:19:51 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarted Greengram4Application in 2.058 seconds (process running for 2.506)[0;39m
+[2024-01-03 13:19:52 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-01-03 13:19:52 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-01-03 13:19:52 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m

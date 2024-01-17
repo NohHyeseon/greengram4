@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.greengram.greengram4.user.UserMapper">
+
+    <insert id="insUser" useGeneratedKeys="true" keyProperty="iuser">
+        insert into t_user
+        set uid=#{uid},
+        upw=#{upw},
+        nm=#{nm},
+        pic=#{pic}
+    </insert>
+
+    <select id="selUser">
+        select iuser,uid,upw,nm,pic, created_at as createdAt, firebase_token as firebaseToken
+        from t_user
+        where uid=#{uid}
+    </select>
+    <select id="userInfo">
+        SELECT COUNT(DISTINCT F.ifeed) AS feedCnt, COUNT(FA.ifeed) AS FavCnt,
+        U.nm, U.created_at AS createdAt, U.pic, SQ.FOLLOWING , SQ.follower, SQ.followState
+        FROM t_user U
+        LEFT JOIN t_feed F ON U.iuser = F.iuser AND U.iuser = #{targetIuser}
+        LEFT JOIN t_feed_fav FA ON F.ifeed = FA.ifeed
+        JOIN (
+            SELECT
+            SUM(if(from_iuser = #{targetIuser}, 1, 0)) AS FOLLOWING,
+            SUM(if(to_iuser = #{targetIuser}, 1, 0)) AS follower,
+            (
+                SUM(if(from_iuser = #{loginedIuser} AND to_iuser = #{targetIuser}, 1, 0)) +
+                SUM(if(from_iuser = #{targetIuser} AND to_iuser = #{loginedIuser}, 2, 0))
+            ) AS followState
+            FROM t_user_follow
+        ) AS SQ
+        WHERE U.iuser = #{targetIuser}
+    </select>
+    <update id="upUserPic">
+        update t_user
+        set pic=#{pic}
+        where iuser=#{iuser}
+    </update>
+<insert id="insFollow">
+    insert into t_user_follow
+    set to_iuser=#{toIuser},
+    from_iuser=#{fromIuser}
+</insert>
+    <delete id="delFollow">
+        delete from t_user_follow
+        where to_iuser=#{toIuser} and from_iuser=#{fromIuser}
+    </delete>
+
+    <update id="updUserFirebaseToken">
+        UPDATE t_user
+        SET firebase_token = #{firebaseToken}
+        WHERE iuser = #{iuser}
+    </update>
+
+    <update id="updUserPic">
+        UPDATE t_user
+        SET pic = #{pic}
+        WHERE iuser = #{iuser}
+    </update>
+
+
+</mapper>
