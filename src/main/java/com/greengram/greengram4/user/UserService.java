@@ -2,6 +2,8 @@ package com.greengram.greengram4.user;
 
 
 import com.greengram.greengram4.common.*;
+import com.greengram.greengram4.exception.AuthErrorCode;
+import com.greengram.greengram4.exception.RestApiException;
 import com.greengram.greengram4.feed.model.FeedPicsInsDto;
 import com.greengram.greengram4.security.AuthenticationFacade;
 import com.greengram.greengram4.security.JwtTokenProvider;
@@ -29,6 +31,7 @@ public class UserService {
     private final MyFileUtils myFileUtils;
 
 
+
     public ResVo signup(UserSignupDto dto) {
         String hashedPw = passwordEncoder.encode(dto.getUpw());
         UserSignupProcDto dto1 = new UserSignupProcDto(dto);
@@ -46,12 +49,10 @@ public class UserService {
 
         UserSignProcDto savedVo = mapper.selUser(dto);
         UserSignInVo vo = new UserSignInVo();
-        if (savedVo == null) {
-            vo.setResult(Const.LOGIN_FAIL_ID_NOT_EXISTS);
-            return vo;
+        if (savedVo == null) {//아이디없음
+            throw new RestApiException(AuthErrorCode.NOT_EXIST_USER_ID);
         } else if (!passwordEncoder.matches(dto.getUpw(), savedVo.getUpw())) {
-            vo.setResult(Const.LOGIN_FAIL_PASSWORD_IS_NOT_CORRECT);
-            return vo;
+            throw new RestApiException(AuthErrorCode.VALID_PASSWORD);
         }
         vo.setResult(Const.L0GIN_SUCCEED);
         vo.setIuser(savedVo.getIuser());
