@@ -3,6 +3,8 @@ package com.greengram.greengram4.feed;
 
 import com.greengram.greengram4.common.MyFileUtils;
 import com.greengram.greengram4.common.ResVo;
+import com.greengram.greengram4.exception.FeedErrorCode;
+import com.greengram.greengram4.exception.RestApiException;
 import com.greengram.greengram4.feed.model.*;
 import com.greengram.greengram4.security.AuthenticationFacade;
 import com.greengram.greengram4.security.MyPrincipal;
@@ -29,6 +31,10 @@ public class FeedService {
     private final MyFileUtils myFileUtils;
 
     public FeedPicsInsDto postFeed(FeedInsDto dto) {
+        if(dto.getPics() == null){
+            throw new RestApiException(FeedErrorCode.PICS_MORE_THEN_ONE);
+        }
+
         dto.setIuser(authenticationFacade.getLoginUserPk()); //Pk받는부분
         log.info("dto: {}", dto);
 

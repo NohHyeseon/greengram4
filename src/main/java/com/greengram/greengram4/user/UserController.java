@@ -36,10 +36,10 @@ public class UserController {
 
     //pk값, nm ,pic ,
     @PostMapping("/signin")
-    public UserSignInVo postUser(HttpServletResponse res,
+    public UserSignInVo postUser(HttpServletRequest req,HttpServletResponse res,
                                  @RequestBody UserSignDto dto) {
         log.info("dto, {}", dto);
-        return service.signin(res, dto);
+        return service.signin(req, res, dto);
     }
 
     @PostMapping("/signout")

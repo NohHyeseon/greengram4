@@ -13,6 +13,7 @@ import com.greengram.greengram4.user.model.*;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -44,7 +45,7 @@ public class UserService {
 
     }
 
-    public UserSignInVo signin(HttpServletResponse res, UserSignDto dto) {
+    public UserSignInVo signin(HttpServletRequest req,HttpServletResponse res, UserSignDto dto) {
 
 
         UserSignProcDto savedVo = mapper.selUser(dto);
@@ -71,6 +72,9 @@ public class UserService {
         int rtCookieMaxAge = (int) appProperties.getJwt().getRefreshTokenExpiry() / 1000;
         cookieUtils.deleteCookie(res, "rt");
         cookieUtils.setCookie(res, "rt", rt, rtCookieMaxAge);
+
+        HttpSession session = req.getSession(true);
+//        session.setAttribute("loginUserPk ",entity);
 
         vo.setAccessToken(at);
         vo.setFirebaseToken(savedVo.getFirebaseToken());

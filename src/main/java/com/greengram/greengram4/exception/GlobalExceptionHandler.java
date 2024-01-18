@@ -22,7 +22,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         return handleExceptionInternal(CommonErrorCode.INTERNAL_SERVER_ERROR);
     }
 
-    //customizing 한 에러메세지
+    //customizing 한 에러메세지 , 특정한예외
     @ExceptionHandler(RestApiException.class)
     public ResponseEntity<Object> handleRestApiException(RestApiException e){
         log.warn("handleRestApiException", e);
