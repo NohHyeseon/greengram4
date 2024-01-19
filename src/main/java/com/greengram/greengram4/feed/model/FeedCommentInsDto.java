@@ -5,6 +5,7 @@ import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
+import lombok.Value;
 
 @Data
 public class FeedCommentInsDto {
@@ -13,11 +14,11 @@ public class FeedCommentInsDto {
     @JsonIgnore
     private int iuser;
 
-    @Min(1)
+    @Min(value = 1, message ="ifeed 값은 1이상입니다")
     private int ifeed;
 
-    @NotEmpty
-    @Size(min=3)
+    @NotEmpty(message = "댓글을 입력해주세요")
+    @Size(min=2, message = "댓글 내용은 2글자 이상이여야 합니다")
     private String comment;
 
 
