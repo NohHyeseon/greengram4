@@ -5,7 +5,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component //빈등록 :
 public class CookieUtils {
 
     // refresh token 담아서 보내는 작업

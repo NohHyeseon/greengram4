@@ -13,13 +13,13 @@ import javax.annotation.PostConstruct;
 import java.io.InputStream;
 
 @Slf4j
-@Configuration
+@Configuration //주소값을 받는다기보단 설정용을 명시화??? component해도 돌아가긴함
 public class FirevasConfiguration {
 
-    @Value("${fcm.certification}")
+    @Value("${fcm.certification}") //야믈 의존성 주입
     private String googleApplicationCredentials;
 
-    @PostConstruct
+    @PostConstruct //생성자 다음 호출해라
     public void init() {
         try {
             InputStream serviceAccount =

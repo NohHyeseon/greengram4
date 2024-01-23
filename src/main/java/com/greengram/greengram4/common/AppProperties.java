@@ -21,14 +21,14 @@ public class AppProperties {
         private String tokenType;
         private long accessTokenExpiry;
         private long refreshTokenExpiry;
-        private int refreshTokenCookieMaxAge;
+        private int refreshTokenCookieMaxAge; //setter를 호출하지않음 야믈에 값이 없기때문에, 만료기간을 설정해줌
         private String uploadPrefixPath;
 
 
         public void setRefreshTokenExpiry(long refreshTokenExpiry){
             this.refreshTokenExpiry = refreshTokenExpiry;
-            this.refreshTokenCookieMaxAge = (int)refreshTokenExpiry / 1000;
-        }
+            this.refreshTokenCookieMaxAge = (int)(refreshTokenExpiry * 0.001); //밀리세컨트를 세컨트로 형변환
+        }//딱 한번 값이 들어오기 때매 속도 신경은 덜 써도됨
 
     }
 
