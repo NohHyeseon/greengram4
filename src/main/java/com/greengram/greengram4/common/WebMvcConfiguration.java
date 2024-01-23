@@ -27,13 +27,14 @@ public class WebMvcConfiguration implements WebMvcConfigurer { //엔터시 에�
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
 
-        registry.addResourceHandler("/pic/**")
+        registry.addResourceHandler("/pic/**") //controller, static 먼저 뒤지고 다음순서
                 .addResourceLocations("file:"+imgFolder);
-        //satic의 pic뒤지지말고 위에꺼 뒤져라
+        //satic의 pic뒤지지말고 위에꺼 뒤져라 add 여러개 추가 하겠다.
 
-        registry
-                .addResourceHandler("/**")
-                .addResourceLocations("classpath:/static/**")
+
+        registry//순서 중요
+                .addResourceHandler("/**") //모든경로를 잡겠다 위의 경로 빼고
+                .addResourceLocations("classpath:/static/**")//classpath는 resource다
                 .resourceChain(true)
                 .addResolver(new PathResourceResolver() {
                     @Override

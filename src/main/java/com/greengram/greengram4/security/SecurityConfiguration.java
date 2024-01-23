@@ -37,6 +37,8 @@ public class SecurityConfiguration { //r권한을 어디다 줄지 설정
                                         "/profile/**",
                                         "/css/**",
                                         "/pic/**",
+                                        "/signin",
+                                        "/signup",
                                         "/index.html",
                                         "/static/**",
                                         "/swagger.html",
