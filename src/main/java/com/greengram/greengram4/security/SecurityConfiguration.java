@@ -17,7 +17,7 @@ public class SecurityConfiguration { //r권한을 어디다 줄지 설정
 
     private final JwtAuthenticationFilter jwtAuthenticationFilter;
 
-    @Bean
+    @Bean//기본꺼 쓰지말고 이거 쓰기위해서 customizing함
     public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
 
         return httpSecurity.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
@@ -46,13 +46,16 @@ public class SecurityConfiguration { //r권한을 어디다 줄지 설정
                                         "/v3/api-docs/**",// 다통과시킨다
                                         "/api/user/refresh-token"
                                 ).permitAll()
+
                                 .anyRequest().authenticated()
                 )
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class) //얘먼저거치고 간다
+                //add는 기존꺼 그대로 두고 추가, set은 기존꺼 다 날리고 셋팅,UsernampePa위에꺼 전에 먼저 이필터를 끼우겠다
                 .exceptionHandling(except -> {
-                    except.authenticationEntryPoint(new JwtAuthenticationEntryPoint())
-                            .accessDeniedHandler(new JwtAccessDenitedHandler());
+                    except.authenticationEntryPoint(new JwtAuthenticationEntryPoint())//얘도 마찬가지
+                            .accessDeniedHandler(new JwtAccessDenitedHandler()); //<-객체생성해서 사용
                 })
+                //permitall은 무사 통과시켜준다는 뜻 , matchers 매칭해줌
                 //.anyRequest().authenticated())//로그인을 해야만 쓸수있음 ,
                 //회원가입시 인증이필요하다? 를 꺼줌 매칭
                 .build();

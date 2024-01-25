@@ -25,7 +25,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 //@Import(CharEncodingConfig.class)
 @MockMvcConfig //한글이 깨지지않기위해
-@WebMvcTest(FeedController.class)//빈등록된 컨트롤러를 객체화시킴
+@WebMvcTest(FeedController.class)//빈등록된 컨트롤러를 객체화시킴, 맵퍼,서비스는 올라가지않게 컨트롤러만설정하는거
 class FeedControllerTest {
     //
     @Autowired

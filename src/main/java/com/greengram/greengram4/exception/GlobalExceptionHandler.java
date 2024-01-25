@@ -23,11 +23,11 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
     //서버는 기본적으로 예외로 던지면 예외 처리를 해주지만 우리가 예외번호를 지정해주고 싶을때 만들어서 보냄
 
     // @Valid 어노테이션으로 넘어오는 에러 처리
-    @Override
+    @Override //자식타입
     protected ResponseEntity<Object> handleMethodArgumentNotValid(
             MethodArgumentNotValidException ex, HttpHeaders headers, HttpStatusCode status, WebRequest request) {
         return handleExceptionInternal(ex, CommonErrorCode.INVALID_PARAMETER);
-    }
+    } //ex안에 valid내용 다 들어가있음
 
     /*@ExceptionHandler(IllegalArgumentException.class)
     public ResponseEntity<Object> handleIllegalArgumentException(IllegalArgumentException e){
@@ -96,18 +96,23 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
                 .build();
     }
 
-    // @Valid 어노테이션으로 넘어오는 에러 처리 메세지를 보내기 위한 메소드
+    // @Valid 어노테이션으로 넘어오는 에러 처리 메세지를 보내기 위한 메소드 ,, 부모 타입
     private ResponseEntity<Object> handleExceptionInternal(BindException e, ErrorCode errorCode) {
         return ResponseEntity.status(errorCode.getHttpStatus())
                 .body(makeErrorResponse(e, errorCode));
+        //위의 ex가 e로 들어오고 handleExceptionInternal
     }
 
     // 코드 가독성을 위해 에러 처리 메세지를 만드는 메소드 분리
     private ErrorResponse makeErrorResponse(BindException e, ErrorCode errorCode) {
-        List<ErrorResponse.ValidationError> validationErrorList = e.getBindingResult()
+        List<ErrorResponse.ValidationError> validationErrorList = e.getBindingResult() //최상위를 보내면 코드가 유연해져서 위 부모코드를 보냄
                 .getFieldErrors()
                 .stream()
-                .map(ErrorResponse.ValidationError::of)
+                //.map(ErrorResponse.ValidationError::of) //밑 두개 다 똑같은말이다
+                //.map(item -> ErrorResponse.ValidationError.of(item))
+                .map(item -> {return ErrorResponse.ValidationError.of(item);})//item안에 필드에러 객체 주소값이 나오고
+                //of라는 메소드를 호출 할 때 item을 보내줌 이너클래스안의 메소드라 세번 호출함 errorResponse 클래스안의 크래스안의 메소드
+                //얘가 리턴하는건 스트림이므로 리스트(?)와 비슷한 타입
                 .collect(Collectors.toList());
 
         return ErrorResponse.builder()

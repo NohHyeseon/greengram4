@@ -7,7 +7,7 @@ import org.springframework.web.filter.CharacterEncodingFilter;
 @Configuration
 public class CharEncodingConfig { //한글이 안깨지기위해서 만듬
     @Bean
-    public CharacterEncodingFilter characterEncodingFilter(){
+    public CharacterEncodingFilter characterEncodingFilter() {
         return new CharacterEncodingFilter("UTF-8", true);
     }
 }

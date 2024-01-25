@@ -16,4 +16,4 @@ public class JwtAccessDenitedHandler implements AccessDeniedHandler {
                        AccessDeniedException accessDeniedException) throws IOException, ServletException {
         response.sendError(HttpServletResponse.SC_FORBIDDEN);
     }
-}
+}//component, bean등록 안한게 직접 객체를 생성하여 쓰겠다 securityConfiguration에서 객체화해서 사용함
