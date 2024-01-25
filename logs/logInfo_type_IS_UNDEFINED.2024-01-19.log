@@ -1,0 +1,419 @@
+[2024-01-19 09:49:21 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-01-19 09:49:21 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 13596 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-19 09:49:21 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-19 09:49:21 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-19 09:49:21 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-19 09:49:22 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-19 09:49:22 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-19 09:49:22 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-19 09:49:22 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-19 09:49:22 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-19 09:49:22 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 992 ms[0;39m
+[2024-01-19 09:49:22 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-19 09:49:22 [33mWARN [0;39m restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [36m
+
+Using generated security password: 59e302f4-e137-460d-8b9f-7781df110662
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+[0;39m
+[2024-01-19 09:49:22 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] [36mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2d368e7d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29b8b76c, org.springframework.security.web.context.SecurityContextHolderFilter@4ad7e9e8, org.springframework.security.web.header.HeaderWriterFilter@38a05425, org.springframework.web.filter.CorsFilter@10b7239b, org.springframework.security.web.authentication.logout.LogoutFilter@39a0e9d6, com.greengram.greengram4.security.JwtAuthenticationFilter@4b53a804, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@603fe4dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@597f8ac0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e5dcdf8, org.springframework.security.web.session.SessionManagementFilter@5b952a81, org.springframework.security.web.access.ExceptionTranslationFilter@5ae8e071, org.springframework.security.web.access.intercept.AuthorizationFilter@55fa2e11][0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarted Greengram4Application in 2.125 seconds (process running for 2.537)[0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m http-nio-8080-exec-1] [com.greengram.greengram4.security.JwtAuthenticationFilter] [36mJwtAuthentication-Token: null [0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m http-nio-8080-exec-3] [com.greengram.greengram4.security.JwtAuthenticationFilter] [36mJwtAuthentication-Token: null [0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m http-nio-8080-exec-5] [com.greengram.greengram4.security.JwtAuthenticationFilter] [36mJwtAuthentication-Token: null [0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m http-nio-8080-exec-2] [com.greengram.greengram4.security.JwtAuthenticationFilter] [36mJwtAuthentication-Token: null [0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m http-nio-8080-exec-4] [com.greengram.greengram4.security.JwtAuthenticationFilter] [36mJwtAuthentication-Token: null [0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m http-nio-8080-exec-6] [com.greengram.greengram4.security.JwtAuthenticationFilter] [36mJwtAuthentication-Token: null [0;39m
+[2024-01-19 09:49:23 [32mINFO [0;39m http-nio-8080-exec-6] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 237 ms[0;39m
+[2024-01-19 09:49:50 [32mINFO [0;39m http-nio-8080-exec-7] [com.greengram.greengram4.security.JwtAuthenticationFilter] [36mJwtAuthentication-Token: null [0;39m
+[2024-01-19 09:49:50 [32mINFO [0;39m http-nio-8080-exec-7] [com.greengram.greengram4.user.UserController] [36mdto, com.greengram.greengram4.user.model.UserSignDto@22eabdac[0;39m
+[2024-01-19 09:49:50 [32mINFO [0;39m http-nio-8080-exec-7] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2024-01-19 09:49:50 [32mINFO [0;39m http-nio-8080-exec-7] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@3f5a885d[0;39m
+[2024-01-19 09:49:50 [32mINFO [0;39m http-nio-8080-exec-7] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2024-01-19 09:49:51 [32mINFO [0;39m http-nio-8080-exec-9] [com.greengram.greengram4.security.JwtAuthenticationFilter] [36mJwtAuthentication-Token: null [0;39m
+[2024-01-19 09:49:51 [32mINFO [0;39m http-nio-8080-exec-9] [com.greengram.greengram4.user.UserController] [36mdto, com.greengram.greengram4.user.model.UserSignDto@4cd23b76[0;39m
+[2024-01-19 09:50:16 [32mINFO [0;39m http-nio-8080-exec-8] [com.greengram.greengram4.security.JwtAuthenticationFilter] [36mJwtAuthentication-Token: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoie1wiaXVzZXJcIjoxfSIsImlhdCI6MTcwNTYyNTM5MSwiZXhwIjoxNzA1NjMyNTkxfQ.hHrv8rpwhmn3KOuqtk01uaeDhqFE6CsqVrrn80ODs1Q [0;39m
+[2024-01-19 09:50:25 [32mINFO [0;39m http-nio-8080-exec-5] [com.greengram.greengram4.security.JwtAuthenticationFilter] [36mJwtAuthentication-Token: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoie1wiaXVzZXJcIjoxfSIsImlhdCI6MTcwNTYyNTM5MSwiZXhwIjoxNzA1NjMyNTkxfQ.hHrv8rpwhmn3KOuqtk01uaeDhqFE6CsqVrrn80ODs1Q [0;39m
+[2024-01-19 09:50:25 [33mWARN [0;39m http-nio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.greengram.greengram4.common.ResVo com.greengram.greengram4.feed.FeedCommnetController.postFeedCommnet(com.greengram.greengram4.feed.model.FeedCommentInsDto): [Field error in object 'feedCommentInsDto' on field 'ifeed': rejected value [0]; codes [Min.feedCommentInsDto.ifeed,Min.ifeed,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [feedCommentInsDto.ifeed,ifeed]; arguments []; default message [ifeed],1]; default message [1 이상이어야 합니다]] ][0;39m
+[2024-01-19 09:52:48 [32mINFO [0;39m http-nio-8080-exec-3] [com.greengram.greengram4.security.JwtAuthenticationFilter] [36mJwtAuthentication-Token: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoie1wiaXVzZXJcIjoxfSIsImlhdCI6MTcwNTYyNTM5MSwiZXhwIjoxNzA1NjMyNTkxfQ.hHrv8rpwhmn3KOuqtk01uaeDhqFE6CsqVrrn80ODs1Q [0;39m
+[2024-01-19 09:52:48 [33mWARN [0;39m http-nio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.greengram.greengram4.common.ResVo com.greengram.greengram4.feed.FeedCommnetController.postFeedCommnet(com.greengram.greengram4.feed.model.FeedCommentInsDto) with 2 errors: [Field error in object 'feedCommentInsDto' on field 'ifeed': rejected value [0]; codes [Min.feedCommentInsDto.ifeed,Min.ifeed,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [feedCommentInsDto.ifeed,ifeed]; arguments []; default message [ifeed],1]; default message [1 이상이어야 합니다]] [Field error in object 'feedCommentInsDto' on field 'comment': rejected value [st]; codes [Size.feedCommentInsDto.comment,Size.comment,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [feedCommentInsDto.comment,comment]; arguments []; default message [comment],2147483647,3]; default message [크기가 3에서 2147483647 사이여야 합니다]] ][0;39m
+[2024-01-19 09:53:08 [32mINFO [0;39m http-nio-8080-exec-2] [com.greengram.greengram4.security.JwtAuthenticationFilter] [36mJwtAuthentication-Token: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoie1wiaXVzZXJcIjoxfSIsImlhdCI6MTcwNTYyNTM5MSwiZXhwIjoxNzA1NjMyNTkxfQ.hHrv8rpwhmn3KOuqtk01uaeDhqFE6CsqVrrn80ODs1Q [0;39m
+[2024-01-19 09:53:09 [33mWARN [0;39m http-nio-8080-exec-2] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.greengram.greengram4.common.ResVo com.greengram.greengram4.feed.FeedCommnetController.postFeedCommnet(com.greengram.greengram4.feed.model.FeedCommentInsDto): [Field error in object 'feedCommentInsDto' on field 'comment': rejected value [st]; codes [Size.feedCommentInsDto.comment,Size.comment,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [feedCommentInsDto.comment,comment]; arguments []; default message [comment],2147483647,3]; default message [크기가 3에서 2147483647 사이여야 합니다]] ][0;39m
+[2024-01-19 09:58:01 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2024-01-19 09:58:01 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2024-01-19 09:58:04 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-01-19 09:58:04 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 1564 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-19 09:58:04 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-19 09:58:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-19 09:58:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-19 09:58:05 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-19 09:58:05 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-19 09:58:05 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-19 09:58:05 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-19 09:58:05 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-19 09:58:05 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 1154 ms[0;39m
+[2024-01-19 09:58:06 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-19 09:58:06 [33mWARN [0;39m restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [36m
+
+Using generated security password: 7fbf50a0-8228-4316-9f6a-082fef012f5c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+[0;39m
+[2024-01-19 09:58:06 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2024-01-19 09:58:06 [32mINFO [0;39m restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] [36mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e3cf1a8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a184182, org.springframework.security.web.context.SecurityContextHolderFilter@2263ef9b, org.springframework.security.web.header.HeaderWriterFilter@23994276, org.springframework.web.filter.CorsFilter@5d63cfd0, org.springframework.security.web.authentication.logout.LogoutFilter@19d8ab47, com.greengram.greengram4.security.JwtAuthenticationFilter@334935e6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c7ce49f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a9557c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@511ad88, org.springframework.security.web.session.SessionManagementFilter@112f7275, org.springframework.security.web.access.ExceptionTranslationFilter@5efedb2c, org.springframework.security.web.access.intercept.AuthorizationFilter@9f9b32e][0;39m
+[2024-01-19 09:58:06 [33mWARN [0;39m restartedMain] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [36mException encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}[0;39m
+[2024-01-19 09:58:06 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStopping service [Tomcat][0;39m
+[2024-01-19 09:58:06 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [36m
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.[0;39m
+[2024-01-19 09:58:06 [31mERROR[0;39m restartedMain] [org.springframework.boot.SpringApplication] [36mApplication run failed[0;39m
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:643)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:960)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:464)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1347)
+	at com.greengram.greengram4.Greengram4Application.main(Greengram4Application.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:289)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:256)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1063)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1005)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140)
+	... 25 common frames omitted
+[2024-01-19 10:00:26 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-01-19 10:00:26 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 7068 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-19 10:00:26 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-19 10:00:26 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-19 10:00:26 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-19 10:00:27 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-19 10:00:27 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-19 10:00:27 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-19 10:00:27 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-19 10:00:27 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-19 10:00:27 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 932 ms[0;39m
+[2024-01-19 10:00:27 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-19 10:00:27 [33mWARN [0;39m restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [36m
+
+Using generated security password: 9d198a0c-79f4-4309-a4fa-8b7a9d5e02ff
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+[0;39m
+[2024-01-19 10:00:27 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2024-01-19 10:00:28 [32mINFO [0;39m restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] [36mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a5dc0e0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@185c2551, org.springframework.security.web.context.SecurityContextHolderFilter@72d865ee, org.springframework.security.web.header.HeaderWriterFilter@4f84ff81, org.springframework.web.filter.CorsFilter@4ec008d0, org.springframework.security.web.authentication.logout.LogoutFilter@75980d88, com.greengram.greengram4.security.JwtAuthenticationFilter@a71e31a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ac58595, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b36828f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a57c249, org.springframework.security.web.session.SessionManagementFilter@5ded1a73, org.springframework.security.web.access.ExceptionTranslationFilter@7ee21b0a, org.springframework.security.web.access.intercept.AuthorizationFilter@426e1ba9][0;39m
+[2024-01-19 10:00:28 [33mWARN [0;39m restartedMain] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [36mException encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}[0;39m
+[2024-01-19 10:00:28 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStopping service [Tomcat][0;39m
+[2024-01-19 10:00:28 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [36m
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.[0;39m
+[2024-01-19 10:00:28 [31mERROR[0;39m restartedMain] [org.springframework.boot.SpringApplication] [36mApplication run failed[0;39m
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:643)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:960)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:464)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1347)
+	at com.greengram.greengram4.Greengram4Application.main(Greengram4Application.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:289)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:256)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1063)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1005)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140)
+	... 25 common frames omitted
+[2024-01-19 10:08:41 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-01-19 10:08:41 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 11484 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-19 10:08:41 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-19 10:08:41 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-19 10:08:41 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-19 10:08:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-19 10:08:42 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-19 10:08:42 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-19 10:08:42 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-19 10:08:42 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-19 10:08:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 942 ms[0;39m
+[2024-01-19 10:08:42 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-19 10:08:42 [33mWARN [0;39m restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [36m
+
+Using generated security password: a0f1164a-7d8c-4dc0-925d-fd18b48b749c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+[0;39m
+[2024-01-19 10:08:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2024-01-19 10:08:42 [32mINFO [0;39m restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] [36mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1bd950a4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f38fadf, org.springframework.security.web.context.SecurityContextHolderFilter@25daffa7, org.springframework.security.web.header.HeaderWriterFilter@67ac3492, org.springframework.web.filter.CorsFilter@76119123, org.springframework.security.web.authentication.logout.LogoutFilter@3b76c092, com.greengram.greengram4.security.JwtAuthenticationFilter@12916f93, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@365e405b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3acd521a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b800370, org.springframework.security.web.session.SessionManagementFilter@6bb0ec38, org.springframework.security.web.access.ExceptionTranslationFilter@2723ae31, org.springframework.security.web.access.intercept.AuthorizationFilter@3907bc5c][0;39m
+[2024-01-19 10:08:42 [33mWARN [0;39m restartedMain] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [36mException encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class com.greengram.greengram4.exception.RestApiException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleRestApiException(com.greengram.greengram4.exception.RestApiException)}[0;39m
+[2024-01-19 10:08:42 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStopping service [Tomcat][0;39m
+[2024-01-19 10:08:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [36m
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.[0;39m
+[2024-01-19 10:08:42 [31mERROR[0;39m restartedMain] [org.springframework.boot.SpringApplication] [36mApplication run failed[0;39m
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class com.greengram.greengram4.exception.RestApiException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleRestApiException(com.greengram.greengram4.exception.RestApiException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:643)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:960)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:464)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1347)
+	at com.greengram.greengram4.Greengram4Application.main(Greengram4Application.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class com.greengram.greengram4.exception.RestApiException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleRestApiException(com.greengram.greengram4.exception.RestApiException)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.greengram.greengram4.exception.RestApiException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleRestApiException(com.greengram.greengram4.exception.RestApiException)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:289)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:256)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1063)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1005)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140)
+	... 25 common frames omitted
+[2024-01-19 10:11:13 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-01-19 10:11:13 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 10300 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-19 10:11:13 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-19 10:11:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-19 10:11:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-19 10:11:14 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-19 10:11:14 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-19 10:11:14 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-19 10:11:14 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-19 10:11:14 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-19 10:11:14 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 944 ms[0;39m
+[2024-01-19 10:11:14 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-19 10:11:14 [33mWARN [0;39m restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [36m
+
+Using generated security password: 020b2b90-cd55-4c2f-92f8-62f5e4a5fec9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+[0;39m
+[2024-01-19 10:11:14 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2024-01-19 10:11:15 [32mINFO [0;39m restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] [36mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1bd950a4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f38fadf, org.springframework.security.web.context.SecurityContextHolderFilter@25daffa7, org.springframework.security.web.header.HeaderWriterFilter@67ac3492, org.springframework.web.filter.CorsFilter@76119123, org.springframework.security.web.authentication.logout.LogoutFilter@3b76c092, com.greengram.greengram4.security.JwtAuthenticationFilter@12916f93, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@365e405b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3acd521a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b800370, org.springframework.security.web.session.SessionManagementFilter@6bb0ec38, org.springframework.security.web.access.ExceptionTranslationFilter@2723ae31, org.springframework.security.web.access.intercept.AuthorizationFilter@3907bc5c][0;39m
+[2024-01-19 10:11:15 [33mWARN [0;39m restartedMain] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [36mException encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}[0;39m
+[2024-01-19 10:11:15 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStopping service [Tomcat][0;39m
+[2024-01-19 10:11:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [36m
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.[0;39m
+[2024-01-19 10:11:15 [31mERROR[0;39m restartedMain] [org.springframework.boot.SpringApplication] [36mApplication run failed[0;39m
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:643)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:960)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:464)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1347)
+	at com.greengram.greengram4.Greengram4Application.main(Greengram4Application.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:289)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:256)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1063)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1005)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140)
+	... 25 common frames omitted
+[2024-01-19 10:17:22 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-01-19 10:17:22 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 12340 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-19 10:17:22 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-19 10:17:22 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-19 10:17:22 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-19 10:17:23 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-19 10:17:23 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-19 10:17:23 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-19 10:17:23 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-19 10:17:23 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-19 10:17:23 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 974 ms[0;39m
+[2024-01-19 10:17:23 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-19 10:17:23 [33mWARN [0;39m restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [36m
+
+Using generated security password: fc14a32c-5338-4d95-948e-e0f01d815e7c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+[0;39m
+[2024-01-19 10:17:23 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2024-01-19 10:17:24 [32mINFO [0;39m restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] [36mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@278ba97e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ffe2dea, org.springframework.security.web.context.SecurityContextHolderFilter@388ea316, org.springframework.security.web.header.HeaderWriterFilter@48359d78, org.springframework.web.filter.CorsFilter@1eff2d03, org.springframework.security.web.authentication.logout.LogoutFilter@7b16396, com.greengram.greengram4.security.JwtAuthenticationFilter@334935e6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14ffb320, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18a1a800, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@555aef98, org.springframework.security.web.session.SessionManagementFilter@3a9557c9, org.springframework.security.web.access.ExceptionTranslationFilter@1cb34b82, org.springframework.security.web.access.intercept.AuthorizationFilter@511ad88][0;39m
+[2024-01-19 10:17:24 [33mWARN [0;39m restartedMain] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [36mException encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}[0;39m
+[2024-01-19 10:17:24 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStopping service [Tomcat][0;39m
+[2024-01-19 10:17:24 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [36m
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.[0;39m
+[2024-01-19 10:17:24 [31mERROR[0;39m restartedMain] [org.springframework.boot.SpringApplication] [36mApplication run failed[0;39m
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:643)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:960)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:464)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1347)
+	at com.greengram.greengram4.Greengram4Application.main(Greengram4Application.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.greengram.greengram4.exception.GlobalExceptionHandler.handleMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:289)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:256)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1063)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1005)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140)
+	... 25 common frames omitted
+[2024-01-19 10:17:43 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-01-19 10:17:43 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarting Greengram4Application using Java 17.0.8.1 with PID 14148 (D:\greengram4\build\classes\java\main started by Administrator in D:\greengram4)[0;39m
+[2024-01-19 10:17:43 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-01-19 10:17:43 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-01-19 10:17:43 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-01-19 10:17:44 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-01-19 10:17:44 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-19 10:17:44 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-01-19 10:17:44 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.17][0;39m
+[2024-01-19 10:17:44 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-01-19 10:17:44 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 957 ms[0;39m
+[2024-01-19 10:17:44 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.common.FirevasConfiguration] [36mFirebaseApp Initialization Complete !!![0;39m
+[2024-01-19 10:17:45 [33mWARN [0;39m restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [36m
+
+Using generated security password: eb877f8e-9b55-4f82-a5ea-d2b2a6a371cb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+[0;39m
+[2024-01-19 10:17:45 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2024-01-19 10:17:45 [32mINFO [0;39m restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] [36mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1ebcf4a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@221ecbba, org.springframework.security.web.context.SecurityContextHolderFilter@59b65765, org.springframework.security.web.header.HeaderWriterFilter@197b02ff, org.springframework.web.filter.CorsFilter@44e9adfc, org.springframework.security.web.authentication.logout.LogoutFilter@76e4e5f0, com.greengram.greengram4.security.JwtAuthenticationFilter@12916f93, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1855e7f7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c3b2a1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@491697a3, org.springframework.security.web.session.SessionManagementFilter@78fc02ec, org.springframework.security.web.access.ExceptionTranslationFilter@6c5dfaf9, org.springframework.security.web.access.intercept.AuthorizationFilter@32823a8f][0;39m
+[2024-01-19 10:17:45 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-01-19 10:17:45 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-01-19 10:17:45 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-01-19 10:17:45 [32mINFO [0;39m restartedMain] [com.greengram.greengram4.Greengram4Application] [36mStarted Greengram4Application in 2.036 seconds (process running for 2.443)[0;39m
