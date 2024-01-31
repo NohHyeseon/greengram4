@@ -12,6 +12,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.ArrayList;
@@ -30,6 +31,7 @@ public class FeedService {
     private final AuthenticationFacade authenticationFacade; //로그인한 아이유저값이 들어감 DI받게 해주는것
     private final MyFileUtils myFileUtils;
 
+    @Transactional //만약 맵퍼 두부분중 한군데가 실패하면 성공한부분 롤백되고 아예 에러터짐
     public FeedPicsInsDto postFeed(FeedInsDto dto) {
         if(dto.getPics() == null){
             throw new RestApiException(FeedErrorCode.PICS_MORE_THEN_ONE);

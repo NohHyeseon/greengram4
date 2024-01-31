@@ -44,6 +44,7 @@ public class SecurityConfiguration { //r권한을 어디다 줄지 설정
                                         "/swagger.html",
                                         "/swagger-ui/**",
                                         "/v3/api-docs/**",// 다통과시킨다
+                                        "/api/open/**",
                                         "/api/user/refresh-token"
                                 ).permitAll()
 
